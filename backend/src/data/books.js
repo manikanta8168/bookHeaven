@@ -196,6 +196,28 @@ const books = [
         countInStock: 25,
         rating: 4.6,
         numReviews: 50,
+    },
+    {
+        title: 'Thinking, Fast and Slow',
+        image: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600',
+        description: 'A deep dive into the two systems that drive the way we think and make choices.',
+        author: 'Daniel Kahneman',
+        category: 'Behavioral Science',
+        price: 429,
+        countInStock: 15,
+        rating: 4.7,
+        numReviews: 38,
+    },
+    {
+        title: 'The Alchemist',
+        image: 'https://images.unsplash.com/photo-1543004218-ee141d0ef142?q=80&w=600',
+        description: 'A fabled story about a shepherd boy who travels to the Egyptian pyramids in search of treasure.',
+        author: 'Paulo Coelho',
+        category: 'Fiction',
+        price: 300,
+        countInStock: 30,
+        rating: 4.8,
+        numReviews: 120,
     }
 ];
 

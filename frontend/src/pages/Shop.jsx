@@ -23,7 +23,7 @@ const Shop = () => {
         const fetchBooks = async () => {
             try {
                 setLoading(true);
-                let url = `/books/external?keyword=${encodeURIComponent(keyword)}`;
+                let url = `/books?keyword=${encodeURIComponent(keyword)}&paginate=false`;
                 if (selectedCategory && selectedCategory !== 'All') {
                     url += `&category=${encodeURIComponent(selectedCategory)}`;
                 }

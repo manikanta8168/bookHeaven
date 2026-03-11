@@ -14,7 +14,7 @@ const Home = () => {
     useEffect(() => {
         const fetchBooks = async () => {
             try {
-                const { data } = await api.get('/books/external?limit=12');
+                const { data } = await api.get('/books?limit=10&paginate=false');
                 setBooks(data.items || data || []);
                 setLoading(false);
             } catch (err) {

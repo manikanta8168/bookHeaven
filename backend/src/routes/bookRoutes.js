@@ -15,8 +15,6 @@ const router = express.Router();
 
 router.route('/').get(getBooks).post(protect, admin, createBook);
 router.route('/:id/reviews').post(protect, createBookReview);
-router.route('/external').get(getExternalBooks);
-router.route('/import/:googleId').post(protect, importExternalBook);
 
 router
     .route('/:id')
