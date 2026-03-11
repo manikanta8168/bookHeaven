@@ -1,7 +1,7 @@
 const books = [
     {
         title: 'The Great Gatsby',
-        image: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=HestSXO362YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
         description: 'A novel about the American dream and the roaring twenties.',
         author: 'F. Scott Fitzgerald',
         category: 'Classic',
@@ -12,7 +12,7 @@ const books = [
     },
     {
         title: 'To Kill a Mockingbird',
-        image: 'https://images.unsplash.com/photo-1543004218-ee141d0ef142?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=YzL52eErlREC&printsec=frontcover&img=1&zoom=1&source=gbs_api',
         description: 'A novel about prejudice and justice in the deep south.',
         author: 'Harper Lee',
         category: 'Fiction',
@@ -23,7 +23,7 @@ const books = [
     },
     {
         title: '1984',
-        image: 'https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=T0xmAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
         description: 'A dystopian social science fiction novel and cautionary tale.',
         author: 'George Orwell',
         category: 'Dystopian',
@@ -34,7 +34,7 @@ const books = [
     },
     {
         title: 'Pride and Prejudice',
-        image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
         description: 'A romantic novel that charts the emotional development of the protagonist Elizabeth Bennet.',
         author: 'Jane Austen',
         category: 'Romance',
@@ -45,7 +45,7 @@ const books = [
     },
     {
         title: 'The Catcher in the Rye',
-        image: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=mZunDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
         description: 'A novel heavily focused on themes of teenage angst and alienation.',
         author: 'J.D. Salinger',
         category: 'Classic',
@@ -56,7 +56,7 @@ const books = [
     },
     {
         title: 'Harry Potter and the Sorcerer\'s Stone',
-        image: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=fo4rzdaHDAwC&printsec=frontcover&img=1&zoom=1&source=gbs_api',
         description: 'A fantasy novel about a young wizard\'s journey.',
         author: 'J.K. Rowling',
         category: 'Fantasy',
@@ -67,7 +67,7 @@ const books = [
     },
     {
         title: 'The Hobbit',
-        image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=i9VCwtU1Z3IC&printsec=frontcover&img=1&zoom=1&source=gbs_api',
         description: 'Bilbo Baggins goes on an unexpected adventure filled with dragons and treasure.',
         author: 'J.R.R. Tolkien',
         category: 'Fantasy',
@@ -78,7 +78,7 @@ const books = [
     },
     {
         title: 'The Da Vinci Code',
-        image: 'https://images.unsplash.com/photo-1543004218-ee141d0ef142?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=A-AS46wG0p8C&printsec=frontcover&img=1&zoom=1&source=gbs_api',
         description: 'A mystery thriller that follows symbols, secrets, and high-stakes puzzles.',
         author: 'Dan Brown',
         category: 'Mystery',
@@ -89,7 +89,7 @@ const books = [
     },
     {
         title: 'The Lean Startup',
-        image: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=tvfyz-4JILwC&printsec=frontcover&img=1&zoom=1&source=gbs_api',
         description: 'A practical guide to building products through validated learning and iteration.',
         author: 'Eric Ries',
         category: 'Business',
@@ -100,7 +100,7 @@ const books = [
     },
     {
         title: 'Clean Code',
-        image: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=hjEFCAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
         description: 'A handbook of software craftsmanship principles for writing readable code.',
         author: 'Robert C. Martin',
         category: 'Technology',
@@ -111,7 +111,7 @@ const books = [
     },
     {
         title: 'The Book Thief',
-        image: 'https://images.unsplash.com/photo-1491841573634-28140fc7ced7?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=6RRongEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
         description: 'A moving historical story narrated by Death and set during World War II.',
         author: 'Markus Zusak',
         category: 'History',
@@ -122,7 +122,7 @@ const books = [
     },
     {
         title: 'The Girl with the Dragon Tattoo',
-        image: 'https://images.unsplash.com/photo-1476275466078-4007374efbbe?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=4FxNNFRnsZsC&printsec=frontcover&img=1&zoom=1&source=gbs_api',
         description: 'An investigative thriller that uncovers dark family secrets.',
         author: 'Stieg Larsson',
         category: 'Mystery',
@@ -133,7 +133,7 @@ const books = [
     },
     {
         title: 'Dune',
-        image: 'https://images.unsplash.com/photo-1506466010722-395aa2bef877?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=I12oPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
         description: 'An epic science fiction saga of politics, prophecy, and survival on Arrakis.',
         author: 'Frank Herbert',
         category: 'Science Fiction',
@@ -144,7 +144,7 @@ const books = [
     },
     {
         title: 'Atomic Habits',
-        image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=fFCjDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
         description: 'No matter your goals, Atomic Habits offers a proven framework for improving every day.',
         author: 'James Clear',
         category: 'Self-Help',
@@ -155,7 +155,7 @@ const books = [
     },
     {
         title: 'The Silent Patient',
-        image: 'https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=a6NnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
         description: 'A shocking psychological thriller of a woman’s act of violence against her husband.',
         author: 'Alex Michaelides',
         category: 'Thriller',
@@ -166,7 +166,7 @@ const books = [
     },
     {
         title: 'Deep Work',
-        image: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=lZpFCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
         description: 'Rules for focused success in a distracted world.',
         author: 'Cal Newport',
         category: 'Productivity',
@@ -177,7 +177,7 @@ const books = [
     },
     {
         title: 'Project Hail Mary',
-        image: 'https://images.unsplash.com/photo-1506466010722-395aa2bef877?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=CnSJEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
         description: 'A lone astronaut must save the earth from disaster in this science fiction saga.',
         author: 'Andy Weir',
         category: 'Science Fiction',
@@ -188,7 +188,7 @@ const books = [
     },
     {
         title: 'Sapiens',
-        image: 'https://images.unsplash.com/photo-1491841573634-28140fc7ced7?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=1EiJAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
         description: 'A brief history of humankind from ancient hunter-gatherers to modern society.',
         author: 'Yuval Noah Harari',
         category: 'History',
@@ -199,7 +199,7 @@ const books = [
     },
     {
         title: 'Thinking, Fast and Slow',
-        image: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=oV1tXT3HigoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
         description: 'A deep dive into the two systems that drive the way we think and make choices.',
         author: 'Daniel Kahneman',
         category: 'Behavioral Science',
@@ -210,7 +210,7 @@ const books = [
     },
     {
         title: 'The Alchemist',
-        image: 'https://images.unsplash.com/photo-1543004218-ee141d0ef142?q=80&w=600',
+        image: 'http://books.google.com/books/content?id=FEL8DlqjYEkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
         description: 'A fabled story about a shepherd boy who travels to the Egyptian pyramids in search of treasure.',
         author: 'Paulo Coelho',
         category: 'Fiction',
