@@ -16,7 +16,9 @@ const getBooks = async (req, res, next) => {
             }
             : {};
 
-        const category = req.query.category ? { category: req.query.category } : {};
+        const category = req.query.category && req.query.category !== 'All' 
+            ? { category: req.query.category } 
+            : {};
 
         const filter = { ...keyword, ...category };
 

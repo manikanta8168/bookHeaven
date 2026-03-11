@@ -60,7 +60,8 @@ app.use('/api/collab', collabRoutes);
 app.get('/api/health', (req, res) => {
   res.json({
     status: 'API is running...',
-    dbName: mongoose.connection?.name || undefined,
+    dbState: mongoose.connection.readyState, 
+    dbName: mongoose.connection?.name || 'none',
   });
 });
 
