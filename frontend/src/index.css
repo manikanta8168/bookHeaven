@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+  body {
+    background-color: #f9fafb;
+    color: #111827;
+    font-family: 'Inter', 'Poppins', sans-serif;
+    transition: background-color 0.2s, color 0.2s;
+  }
+}
