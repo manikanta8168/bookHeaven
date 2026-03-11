@@ -22,10 +22,11 @@ const app = express();
 app.set('trust proxy', 1);
 
 const normalizeOrigin = (value = '') => value.trim().replace(/\/+$/, '').toLowerCase();
-const allowedOrigins = (process.env.CORS_ORIGINS || process.env.FRONTEND_URL || '')
-  .split(',')
-  .map((origin) => normalizeOrigin(origin))
-  .filter(Boolean);
+const allowedOrigins = process.env.CORS_ORIGINS 
+  ? process.env.CORS_ORIGINS.split(',').map(o => normalizeOrigin(o.trim()))
+  : ['http://localhost:5173', 'https://book-heaven-taw6.vercel.app'];
+
+console.log('Allowed Origins:', allowedOrigins);
 
 const corsOptions = {
   origin: (origin, callback) => {
